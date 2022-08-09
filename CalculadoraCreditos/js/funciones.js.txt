@@ -1,0 +1,8 @@
+function Limpiar(){
+    document.getElementById('miFormulario').reset();
+}
+
+function calcular(){
+    var cal = parseInt(document.getElementById('valor1').value);
+    document.getElementById('resultado').innerHTML = cal*520;
+}

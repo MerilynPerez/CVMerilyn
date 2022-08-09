@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de créditos</title>
+    <meta charset="utf-8">
+    <style>
+        body{
+            background-color: lightpink;
+
+        }
+        div{
+            background-color: mistyrose;
+            border: 1px solid black;
+            padding: 12px;
+            width: 60%;
+            margin: 0 auto;
+
+        }
+        fieldset{
+            margin-bottom: 13px;
+        }
+        button{
+            
+            background-color: lightpink;
+            border: 1px solid palevioletred;
+            padding: 5px;
+            border-radius: 20px;
+            cursor: pointer;
+            
+        }
+
+        
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <div>
+        <form id="miFormulario" name="" method="post">
+    
+            <label>Créditos</label>
+            <input type="number" name="" id="valor1" autofocus placeholder="Cantidad de créditos">
+            <button onclick="Limpiar();">Limpiar caja</button>
+    
+            <br>
+            <br>
+    
+            <button type="button" onclick="calcular();">&nbsp;Calcular</button> 
+    
+            <p>El resultado es: <span id="resultado"></span> </p>
+
+            
+    
+        </form>
+        <script src="js/funciones.js.txt">
+    
+        </script>
+
+        
+            
+    
+        
+
+    </div>
+
+    
+    
+</body>
+</html>
